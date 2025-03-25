@@ -19,13 +19,12 @@ class IngredientesPermitidos implements IngredientesControle {
 
     public void adicionar(String nome) {
         if(nome.equals(ingrediente_proibido)){
-            System.out.println("⛔ ERRO: Ingrediente proibido! \" + nome + \" não pode ser adicionado.");}
+            System.out.println("⛔ ERRO: Ingrediente proibido! \"" + nome + "\" não pode ser adicionado.");}
         else{
         ingredienteAdicionado.adicionar(nome);}
 
     }
 }
-
 
 public class Proxy{
     public static void main(String[] args) {
